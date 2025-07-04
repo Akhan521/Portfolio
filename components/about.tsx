@@ -111,7 +111,7 @@ export function About() {
                     <h3 className="text-lg font-bold text-white">My Journey</h3>
                   </div>
                   <p className="text-gray-300 leading-relaxed mb-3 text-sm">
-                    I’m still learning what it means to be a great engineer, but one thing’s certain: I love pushing the boundaries of what machine learning and software can do. 
+                    I’m still learning what it means to be a great engineer, but one thing’s certain: I love learning about what machine learning and software can do for the world. 
                     Whether it’s testing a new algorithm or staring up at a clear night sky, I’m always looking for patterns and possibilities.
                   </p>
                   <p className="text-gray-400 leading-relaxed mb-4 text-sm">
