@@ -47,14 +47,20 @@ export function Hero() {
             >
               View My Work
             </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="border-gray-400 text-gray-300 hover:bg-gray-800 hover:text-white px-8 py-3 rounded-full text-lg font-semibold transition-all duration-300 hover:scale-105 bg-transparent"
+            <a
+              href="https://drive.google.com/file/d/1mHobvoJ1mXmhMtC-hMmu0nqnDl12rVms/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <Download className="mr-2 h-5 w-5" />
-              Download Resume
-            </Button>
+              <Button
+                variant="outline"
+                size="lg"
+                className="border-gray-400 text-gray-300 hover:bg-gray-800 hover:text-white px-8 py-3 rounded-full text-lg font-semibold transition-all duration-300 hover:scale-105 bg-transparent"
+              >
+                <Download className="mr-2 h-5 w-5" />
+                Download Resume
+              </Button>
+            </a>
           </div>
 
           <div className="flex justify-center space-x-6 animate-fade-in-up delay-1000">

@@ -35,7 +35,7 @@ export function Projects() {
     {
       title: "GPT From Scratch",
       description:
-        "I built a custom GPT-style language model completely from scratch using PyTorch, no external model libraries involved. My project was a deep dive into the core architecture of transformers, where I implemented self-attention, transformer blocks, and the GPT-like model from the ground up. My model was trained on the first 6 chapters of Winnie the Pooh using only my laptop's CPU, and I visualized training performance through custom plots and summaries. Want to test it yourself? I've prepared a Colab-powered demo that lets you generate text in real-time with adjustable prompts and settings, bringing childhood storytelling to life with code.",
+        "Curious about how large language models like ChatGPT actually work, I set out to build one myself from scratch. No model libraries, no shortcuts. Just coffee, PyTorch, persistence, and a desire to deeply understand the mechanics of self-attention, tokenization, transformers, and transformer-based generation. Along the way, I implemented each component by hand, from multi-head attention to GPT-style autoregressive decoding, and trained my model entirely on my CPU. For training, I used the first six chapters of Winnie the Pooh, a childhood favorite of mine. It was a fun and meaningful way to learn while building, letting my model pick up on the whimsical tone and playful spirit of the stories that first sparked my imagination years ago.",
       image: "/gpt.png?height=400&width=600",
       tags: ["Python", "PyTorch", "Matplotlib", "NumPy", "Google Colab"],
       github: "https://github.com/Akhan521/GPT-From-Scratch",
@@ -45,7 +45,7 @@ export function Projects() {
     {
       title: "Neural Style Transfer",
       description:
-        "Ever wondered what your photos would look like as works of art? This project brings that idea to life using deep learning. I built a full desktop app that lets you upload two images, one as your content image (like a selfie or landscape) and another as your style image (like a Van Gogh painting). My app then blends them together, transferring the brushstrokes, textures, and colors of the style image onto your original photo, turning it into a completely new artistic creation. Users can experiment with different combinations and instantly preview their results. Everything runs in real-time on your own computer, with a clean interface that makes it easy for anyone, even without a technical background, to explore AI-powered creativity.",
+        "Ever wondered what your photos would look like as works of art? This project brings that idea to life using deep learning. I built a full desktop app that lets you upload two images, one as your content image (like a selfie or landscape) and another as your style image (like a Van Gogh painting). My app then blends them together, transferring the textures and colors of the style image onto your original photo, turning it into a completely new artistic creation. Users can experiment with different combinations and instantly preview their results. Everything runs in real-time on your own computer, with a clean interface that makes it easy for anyone, even without a technical background, to explore AI-powered creativity.",
       image: "/nst.png?height=400&width=600",
       tags: ["Python", "PyQt6", "PyTorch", "Pillow", "Matplotlib", "NumPy"],
       github: "https://github.com/Akhan521/Neural-Style-Transfer",
@@ -55,7 +55,7 @@ export function Projects() {
     {
       title: "8-Puzzle AI Solver",
       description:
-        "The 8-Puzzle is a classic brain teaser, a 3x3 grid with numbered tiles and one empty space. Your goal? Slide the tiles around until they're back in order. This project brings 8-Puzzle to life using AI. Built in Python, it solves any puzzle configuration you give it by using smart search algorithms like A* and Uniform Cost Search. You’ll watch your computer plan, think ahead, and solve the puzzle step by step, just like a human but faster. It’s not just a solver, it’s a peek into how AI makes decisions. You can compare different algorithms side by side, see how their strategies evolve, and explore how small changes in heuristics affect performance. Whether you're curious about AI or just love puzzles, my project offers something fun and insightful for you to explore.",
+        "The 8-Puzzle is a classic brain teaser, a 3x3 grid with numbered tiles and one empty space. Your goal? Slide the tiles around until they're back in order. This project brings 8-Puzzle to life using AI. Built in Python, it solves any puzzle setup you give it by using smart search algorithms like A* and Uniform Cost Search. You’ll watch your computer plan, think ahead, and solve the puzzle step by step, just like a human but faster. It’s not just a solver, it’s a peek into how AI makes decisions. You can compare different algorithms side by side, see how their strategies evolve, and explore how small changes in heuristics affect performance. Whether you're curious about AI or just love puzzles, my project offers something fun and insightful for you to explore.",
       image: "/puzzle.png?height=400&width=600",
       tags: ["Python", "NumPy", "Matplotlib", "Pandas", "AI", "Algorithms"],
       github: "https://github.com/Akhan521/8-Puzzle-AI",
@@ -96,7 +96,7 @@ export function Projects() {
         <div
           className={`transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-300">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-8 pb-1 text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-300">
             Featured Projects
           </h2>
 
