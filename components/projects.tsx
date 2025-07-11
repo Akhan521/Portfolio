@@ -69,7 +69,7 @@ export function Projects() {
       image: "/pixelate.png?height=400&width=600",
       tags: ["Python", "PyQt6", "Firebase", "FastAPI", "OpenAI API", "Docker"],
       github: "https://github.com/Akhan521/Pixelate",
-      demo: "https://github.com/Akhan521/Pixelate?tab=readme-ov-file#pixelate-demo",
+      demo: "https://github.com/Akhan521/Pixelate?tab=readme-ov-file#-pixelate-in-action",
       featured: true,
     },
   ]
