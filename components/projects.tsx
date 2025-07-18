@@ -53,6 +53,16 @@ export function Projects() {
       featured: true,
     },
     {
+      title: "Ask GPT-2",
+      description:
+        "Can a small, general-purpose language model become better at answering questions with just a little guidance? In this short project, I fine-tuned a lightweight GPT-2 model using Hugging Face tools and the Guanaco QA dataset. The result: a model that answers basic questions more clearly, instead of just continuing text like the original GPT-2. This project was my way of exploring how fine-tuning can align a model with user intent, and thanks to Hugging Face's powerful libraries, I was able to train, evaluate, and deploy everything smoothly. There's even a Colab demo so anyone can try it out instantly, no setup needed.",
+      image: "/ask-gpt.png?height=400&width=600",
+      tags: ["Python", "Hugging Face", "PyTorch", "Transformers", "Fine-Tuning"],
+      github: "https://github.com/Akhan521/Ask-GPT-2",
+      demo: "https://colab.research.google.com/drive/1mIY6XrOPOAuhILn_oL9H4j_Y_bPvQio-?usp=sharing",
+      featured: true,
+    },
+    {
       title: "8-Puzzle AI Solver",
       description:
         "The 8-Puzzle is a classic brain teaser, a 3x3 grid with numbered tiles and one empty space. Your goal? Slide the tiles around until they're back in order. This project brings 8-Puzzle to life using AI. Built in Python, it solves any puzzle setup you give it by using smart search algorithms like A* and Uniform Cost Search. You’ll watch your computer plan, think ahead, and solve the puzzle step by step, just like a human but faster. It’s not just a solver, it’s a peek into how AI makes decisions. You can compare different algorithms side by side, see how their strategies evolve, and explore how small changes in heuristics affect performance. Whether you're curious about AI or just love puzzles, my project offers something fun and insightful for you to explore.",
