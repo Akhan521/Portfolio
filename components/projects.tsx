@@ -53,6 +53,16 @@ export function Projects() {
       featured: true,
     },
     {
+      title: "Text2SQL LLaMA Analyst",
+      description:
+        "What if anyone could query a database just by asking a question? I fine-tuned Meta's LLaMA-2-7B model to translate natural language into SQL. Using LoRA (Low-Rank Adaptation) and 4-bit quantization, I made training this massive model possible on limited hardware. My model learns from a dataset of natural language questions paired with SQL queries, and I built an interactive demo so anyone can test my model’s predictions side-by-side with real examples. This project taught me how to specialize large language models for domain-specific tasks while staying resource-efficient. It also deepened my understanding of prompt design, causal language modeling, and the trade-offs between accuracy and efficiency.",
+      image: "/llama-sql.png?height=400&width=600",
+      tags: ["Hugging Face", "LoRA", "LLMs", "Fine-Tuning", "Quantization", "SQL"],
+      github: "https://github.com/Akhan521/Text2SQL-LLaMA-Analyst",
+      demo: "https://colab.research.google.com/drive/1ISQ9jpYCEMQQ6WSKRqF60p3ZIEsJuuFo?usp=sharing",
+      featured: true,
+    },
+    {
       title: "Ask GPT-2",
       description:
         "Can a small, general-purpose language model become better at answering questions with just a little guidance? In this short project, I fine-tuned a lightweight GPT-2 model using Hugging Face tools and the Guanaco QA dataset. The result: a model that answers basic questions more clearly, instead of just continuing text like the original GPT-2. This project was my way of exploring how fine-tuning can align a model with user intent, and thanks to Hugging Face's powerful libraries, I was able to train, evaluate, and deploy everything smoothly. There's even a Colab demo so anyone can try it out instantly, no setup needed.",
