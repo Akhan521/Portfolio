@@ -31,6 +31,7 @@ export function About() {
       "Python",
       "C++",
       "JavaScript",
+      "SQL",
 
       // Core ML
       "Machine Learning",
@@ -38,6 +39,7 @@ export function About() {
       "Unsupervised Learning",
       "Model Evaluation & Selection",
       "Feature Engineering",
+      "Model Fine-Tuning",
 
       // Deep Learning
       "Deep Learning",
@@ -47,6 +49,7 @@ export function About() {
       "Transformers",
       "Backpropagation",
       "Hyperparameter Tuning",
+      "Parameter-Efficient Fine-Tuning (PEFT)",
 
       // Frameworks & Libraries
       "TensorFlow",
@@ -55,15 +58,20 @@ export function About() {
       "Pandas",
       "NumPy",
       "Matplotlib",
+      "Hugging Face Transformers",
+      "Hugging Face Datasets",
+      "Hugging Face Hub",
 
       // Application Areas
       "Natural Language Processing (NLP)",
+      "Causal Language Modeling",
 
       // Dev Tools & Platforms
       "Docker",
       "Git",
       "Firebase",
       "FastAPI",
+      "Flask",
 
       // Libraries / APIs
       "OpenAI API",
@@ -73,11 +81,15 @@ export function About() {
       "Software Engineering",
       "Algorithm Design",
       "Model Optimization",
+      "Data Processing",
 
       // Soft Skills / Qualitative
       "Teaching & Mentorship",
       "Technical Communication",
       "Continuous Learning",
+      "Collaboration",
+      "Critical Thinking",
+      "Collaborative Problem Solving",
     ];
 
 
