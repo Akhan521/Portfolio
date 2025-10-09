@@ -48,7 +48,7 @@ export function Hero() {
               View My Work
             </Button>
             <a
-              href="https://drive.google.com/file/d/1fSKFMsLtGgU6_IWfefi-_QLMTqH2bJ7Z/view?usp=sharing"
+              href="https://drive.google.com/file/d/1avfq7rcr1CGIo7Ju3_FDgi_iLT4p-1Se/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
