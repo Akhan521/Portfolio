@@ -35,7 +35,7 @@ export function Projects() {
     {
       title: "GPT From Scratch",
       description:
-        "Curious about how large language models like ChatGPT actually work, I set out to build one myself from scratch. No model libraries, no shortcuts. Just coffee, PyTorch, persistence, and a desire to deeply understand the mechanics of self-attention, tokenization, transformers, and transformer-based generation. Along the way, I implemented each component by hand, from multi-head attention to GPT-style autoregressive decoding, and trained my model entirely on my CPU. For training, I used the first six chapters of Winnie the Pooh, a childhood favorite of mine. It was a fun and meaningful way to learn while building, letting my model pick up on the whimsical tone and playful spirit of the stories that first sparked my imagination years ago.",
+        "No model libraries. No shortcuts. I built every piece of a GPT by hand, from the tokenizer to multi-head attention to autoregressive decoding, then trained it on my own CPU using the first six chapters of Winnie the Pooh. The result sounds a lot like Pooh himself, which was exactly the point.",
       image: "/gpt.png?height=400&width=600",
       tags: ["Python", "PyTorch", "Matplotlib", "NumPy", "Google Colab"],
       github: "https://github.com/Akhan521/GPT-From-Scratch",
@@ -45,7 +45,7 @@ export function Projects() {
     {
       title: "Neural Style Transfer",
       description:
-        "Ever wondered what your photos would look like as works of art? This project brings that idea to life using deep learning. I built a full desktop app that lets you upload two images, one as your content image (like a selfie or landscape) and another as your style image (like a Van Gogh painting). My app then blends them together, transferring the textures and colors of the style image onto your original photo, turning it into a completely new artistic creation. Users can experiment with different combinations and instantly preview their results. Everything runs in real-time on your own computer, with a clean interface that makes it easy for anyone, even without a technical background, to explore AI-powered creativity.",
+        "Ever wondered what your photos would look like hanging in a museum? I built a desktop app that blends any photo with any painting, transferring the artist's texture and color onto your image in seconds. You don't need to know a thing about AI to start creating.",
       image: "/nst.png?height=400&width=600",
       tags: ["Python", "PyQt6", "PyTorch", "Pillow", "Matplotlib", "NumPy"],
       github: "https://github.com/Akhan521/Neural-Style-Transfer",
@@ -55,7 +55,7 @@ export function Projects() {
     {
       title: "Text2SQL LLaMA Analyst",
       description:
-        "What if anyone could query a database just by asking a question? I fine-tuned Meta's LLaMA-2-7B model to translate natural language into SQL. Using LoRA (Low-Rank Adaptation) and 4-bit quantization, I made training this massive model possible on limited hardware. My model learns from a dataset of natural language questions paired with SQL queries, and I built an interactive demo so anyone can test my model’s predictions side-by-side with real examples. This project taught me how to specialize large language models for domain-specific tasks while staying resource-efficient. It also deepened my understanding of prompt design, causal language modeling, and the trade-offs between accuracy and efficiency.",
+        "Ask a question in plain English, get working SQL back. I fine-tuned Meta's LLaMA-2-7B to translate the way people actually talk into the queries a database understands. LoRA and 4-bit quantization made training a 7 billion parameter model possible on a single free Colab T4.",
       image: "/llama-sql.png?height=400&width=600",
       tags: ["Hugging Face", "LoRA", "LLMs", "Fine-Tuning", "Quantization", "SQL"],
       github: "https://github.com/Akhan521/Text2SQL-LLaMA-Analyst",
