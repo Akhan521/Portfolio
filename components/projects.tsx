@@ -65,7 +65,7 @@ export function Projects() {
     {
       title: "Ask GPT-2",
       description:
-        "Can a small, general-purpose language model become better at answering questions with just a little guidance? In this short project, I fine-tuned a lightweight GPT-2 model using Hugging Face tools and the Guanaco QA dataset. The result: a model that answers basic questions more clearly, instead of just continuing text like the original GPT-2. This project was my way of exploring how fine-tuning can align a model with user intent, and thanks to Hugging Face's powerful libraries, I was able to train, evaluate, and deploy everything smoothly. There's even a Colab demo so anyone can try it out instantly, no setup needed.",
+        "GPT-2 was never built to answer questions. It was built to guess the next word. I fine-tuned it on the Guanaco QA dataset to close that gap, then dropped it in a Colab notebook so you can try it in a single click.",
       image: "/ask-gpt.png?height=400&width=600",
       tags: ["Python", "Hugging Face", "PyTorch", "Transformers", "Fine-Tuning"],
       github: "https://github.com/Akhan521/Ask-GPT-2",
@@ -75,7 +75,7 @@ export function Projects() {
     {
       title: "8-Puzzle AI Solver",
       description:
-        "The 8-Puzzle is a classic brain teaser, a 3x3 grid with numbered tiles and one empty space. Your goal? Slide the tiles around until they're back in order. This project brings 8-Puzzle to life using AI. Built in Python, it solves any puzzle setup you give it by using smart search algorithms like A* and Uniform Cost Search. You’ll watch your computer plan, think ahead, and solve the puzzle step by step, just like a human but faster. It’s not just a solver, it’s a peek into how AI makes decisions. You can compare different algorithms side by side, see how their strategies evolve, and explore how small changes in heuristics affect performance. Whether you're curious about AI or just love puzzles, my project offers something fun and insightful for you to explore.",
+        "Same puzzle, four ways to solve it. I built an 8-puzzle solver in Python that pits Uniform Cost Search against three A* heuristics and counts the work each one does, turning an abstract question about heuristics into hard numbers you can compare.",
       image: "/puzzle.png?height=400&width=600",
       tags: ["Python", "NumPy", "Matplotlib", "Pandas", "AI", "Algorithms"],
       github: "https://github.com/Akhan521/8-Puzzle-AI",
@@ -85,7 +85,7 @@ export function Projects() {
     {
       title: "Pixelate: An Inclusive Pixel Art Editor",
       description:
-        "Pixelate is a pixel art creation platform built with inclusion in mind. More than 300 million people are affected by colorblindness worldwide, yet most design tools overlook accessibility. Inspired by friends and family members with color vision deficiencies, I wanted to build a tool with others that empowers everyone to create freely, regardless of how they see color. With smart filters tailored for the three most common types of colorblindness (protanopia, deuteranopia, tritanopia), an AI assistant for helpful suggestions, and a public gallery for sharing and discovery, Pixelate brings creativity and accessibility together. Whether you're an artist or just curious, I invite you to explore, create, and be part of a more inclusive digital art community.",
+        "Inspired by people close to me who see color differently, we built Pixelate: a pixel-art editor with accessibility at its core. Real-time filters for the three most common types of colorblindness, an AI assistant named Pixi, and a public gallery to share your work.",
       image: "/pixelate.png?height=400&width=600",
       tags: ["Python", "PyQt6", "Firebase", "FastAPI", "OpenAI API", "Docker"],
       github: "https://github.com/Akhan521/Pixelate",
